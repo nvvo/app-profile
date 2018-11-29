@@ -1,3 +1,4 @@
+import React from 'react';
 export function Hobby({name, description, icon}) {
   return (
     <div className="content">

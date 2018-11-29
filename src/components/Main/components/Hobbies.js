@@ -1,3 +1,4 @@
+import React from 'react';
 import {Hobby} from './Hobby';
 export function Hobbies({hobbies}) {
   return (
