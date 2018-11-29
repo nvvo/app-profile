@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-import Feature from './maincontent/Features';
-import About from './maincontent/About';
-import Skill from './maincontent/Skill';
-import Resume from './maincontent/Resume';
-import Education from './maincontent/Education';
-import Testimonial from './maincontent/Testimonial';
-import Portifilio from './maincontent/Portifilio';
-import Contact from './maincontent/Contact';
+import Feature from './components/Features';
+import About from './components/About';
+import Skill from './components/Skill';
+import Resume from './components/Resume';
+import Education from './components/Education';
+import Testimonial from './components/Testimonial';
+import Portifilio from './components/Portifilio';
+import Contact from './components/Contact';
 
 class Main extends Component {
   constructor(props){
