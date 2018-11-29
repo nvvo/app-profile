@@ -1,5 +1,7 @@
 import React from 'react';
-export function Hobby({name, description, icon}) {
+import PropTypes from 'prop-types';
+
+const Hobby = ({name, description, icon}) => {
   return (
     <div className="content">
       <div className="icon">
@@ -11,4 +13,12 @@ export function Hobby({name, description, icon}) {
       </div>
     </div>
   );
-}
+};
+
+Hobby.propTypes = {
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
+
+export default Hobby;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Hobby} from './Hobby';
+import Hobby from './Hobby';
 export function Hobbies({hobbies}) {
   return (
     <div className="hobbies">
