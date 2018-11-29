@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './hobby.module.css';
 
 const Hobby = ({name, description, icon}) => {
   return (
@@ -9,7 +10,7 @@ const Hobby = ({name, description, icon}) => {
       </div>
       <div className="text">
         <h3>{name}</h3>
-        <p>{description}</p>
+        <p className={styles.description}>{description}</p>
       </div>
     </div>
   );
